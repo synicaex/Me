@@ -24,7 +24,7 @@ for tankstelle in tankstellen:
         preis_list.append(preis)
         firma_list.append(firma)
 
-client = client = InfluxDBClient(host='192.168.2.109', port=8086, username='alx', password='123susiHE', ssl=False, verify_ssl=True)
+client = InfluxDBClient(host='192.168.2.109', port=8086, username='alx', password='123susiHE', ssl=False, verify_ssl=True)
 client.switch_database("benzinpreise")
 
 json_body = [
